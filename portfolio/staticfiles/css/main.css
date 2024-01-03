@@ -12,7 +12,9 @@ body{
     border-radius:50%!important;
     margin-left:auto!important;
     margin-right:auto!important;
+    zoom: 1.2;
 }
+
 
 ull{
     padding:0;

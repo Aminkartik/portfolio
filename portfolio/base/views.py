@@ -5,8 +5,8 @@ from django.http import HttpResponse
 def home(request):
     return render(request, 'base/home.html')
 
-def pdf_view(request):
-    with open('D:\Certificates\Full_Stack_Development.pdf', 'rb') as pdf:
-        response = HttpResponse(pdf.read(), content_type='application/pdf')
-        response['Content-Disposition'] = 'inline;filename=Full_Stack_Development.pdf'
-        return response
+# def pdf_view(request):
+#     with open('D:\Certificates\Full_Stack_Development.pdf', 'rb') as pdf:
+#         response = HttpResponse(pdf.read(), content_type='application/pdf')
+#         response['Content-Disposition'] = 'inline;filename=Full_Stack_Development.pdf'
+#         return response
