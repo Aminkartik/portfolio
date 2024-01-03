@@ -1,3 +1,31 @@
-h3{
-    color:red;
+body{
+    background-color:#F8F8F8!important;
+}
+
+#profile-wrapper{
+    text-align: center!important;
+}
+
+#profile-pic{
+    width:150px!important;
+    height:150px!important;
+    border-radius:50%!important;
+    margin-left:auto!important;
+    margin-right:auto!important;
+}
+
+ull{
+    padding:0;
+    list-style-type:none;
+}
+
+.social-links ul, li{
+    list-style-type:none;
+    display:inline-block;
+    padding:5px;
+}
+
+.social{
+    width:25px;
+    height:25px;
 }
