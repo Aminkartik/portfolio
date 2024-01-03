@@ -10,3 +10,6 @@ def home(request):
 #         response = HttpResponse(pdf.read(), content_type='application/pdf')
 #         response['Content-Disposition'] = 'inline;filename=Full_Stack_Development.pdf'
 #         return response
+
+def contact(request):
+    return render(request, 'base/contact.html')
