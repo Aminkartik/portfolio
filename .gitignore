@@ -1,10 +1,3 @@
-portfolio/base/__pycache__/urls.cpython-311.pyc
-portfolio/base/__pycache__/views.cpython-311.pyc
-portfolio/base/__pycache__/__init__.cpython-311.pyc
-portfolio/base/__pycache__/admin.cpython-311.pyc
-portfolio/base/__pycache__/models.cpython-311.pyc
-portfolio/portfolio/__pycache__/__init__.cpython-311.pyc
-portfolio/portfolio/__pycache__/settings.cpython-311.pyc
-portfolio/portfolio/__pycache__/urls.cpython-311.pyc
-portfolio/portfolio/__pycache__/wsgi.cpython-311.pyc
-portfolio/base/__pycache__/apps.cpython-311.pyc
+portfolio/base/__pycache__/*
+portfolio/portfolio/__pycache__/*
+portfolio/base/migrations/__pycache__/*

@@ -16,43 +16,43 @@ body{
 }
 
 .custom-button{
-    border:none;
-    border-radius:8px;
-    background-color:#E5E1DA;
-    padding:6px 35px;
-    display:inline-block;
-    font-size:15px;
-    margin:auto; 
-    text-decoration: none;
-    color:black;
-    transition: background-color 0.3s, color 0.3s;
-    cursor: pointer;
+    border:none!important;
+    border-radius:8px!important;
+    background-color:#E5E1DA!important;
+    padding:6px 35px!important;
+    display:inline-block!important;
+    font-size:15px!important;
+    margin:auto!important; 
+    text-decoration: none!important;
+    color:black!important;
+    transition: background-color 0.3s, color 0.3s!important;
+    cursor: pointer!important;
     /* border: 1px solid #3498db; */
 }
 
 .custom-button:hover{
-    background-color: #0f2167; /* Set your desired hover background color */
-    color: #ffffff;
+    background-color: #0f2167!important; /* Set your desired hover background color */
+    color: #ffffff!important;
 }
 
 
 ul{
-    padding:0;
-    list-style-type:none;
+    padding:0!important;
+    list-style-type:none!important;
 }
 
 .social-links ul, li{
-    list-style-type:none;
-    display:inline-block;
-    padding:5px;
+    list-style-type:none!important;
+    display:inline-block!important;
+    padding:5px!important;
 
 }
 
 .social{
-    width:25px;
-    height:25px;
+    width:25px!important;
+    height:25px!important;
 }
 
 .social:hover{
-    zoom:1.2;
+    zoom:1.2!important;
 }
